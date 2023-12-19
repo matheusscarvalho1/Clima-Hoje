@@ -34,7 +34,7 @@ const WeeklyForecast = () => {
         />
         <WeeklyForecastItem
           DayWeek="Sexta"
-          img="./images/clouds.svg"
+          img="./images/sun cloud.svg"
           alt="Nublado"
           tempMax="35°"
           tempMin="30°"
