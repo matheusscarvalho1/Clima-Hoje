@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Projeto Clima Hoje
+<div align="center">
+  
+![image](https://github.com/matheusscarvalho1/app-previsao-do-tempo/assets/73304785/02c69399-a724-4539-8750-ba4c116fc3f7)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+</div>
+🌦️ Criação de uma aplicação web utilizando React e CSS Modules em que mostra a temperatura da cidade ao decorrer do dia, contemplando também a sensação térmica, a chance de chuva, a velocidade do vento, e o índice UV, além disso mostra as temperaturas máximas e mínimas dos outros dias da semana.
 
-### `npm start`
+## Pré requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Você precisa ter instalado o [NodeJS](https://nodejs.org/) (Recomendado: versão 18) e o npm ou yarn.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Também é necessário uma IDE, recomendo o [VSCode](https://code.visualstudio.com/)
 
-### `npm test`
+## Tecnologias utilizadas no projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ReactJs na versão 18.2.0](https://pt-br.legacy.reactjs.org)
+- [CSS Modules](https://github.com/css-modules/css-modules)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Como rodar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para instalar as bibliotecas e dependências:
 
-### `npm run eject`
+```bash
+npm i
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Após instalar, basta utilizar o comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Depois, é só abrir [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Resultados
 
-## Learn More
+## Desktop
+<div align="center">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/matheusscarvalho1/app-previsao-do-tempo/assets/73304785/382b2cc7-d314-4022-ad0f-797a90b69807)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<hr>
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Mobile
 
-### Analyzing the Bundle Size
+<div align="center">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+![image](https://github.com/matheusscarvalho1/app-previsao-do-tempo/assets/73304785/e7c9e4f7-436a-4c42-b6ef-ff0f8dcc432d)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![image](https://github.com/matheusscarvalho1/app-previsao-do-tempo/assets/73304785/0c3e327b-4576-4994-bb76-1959254021cb)
 
-### Advanced Configuration
+![image](https://github.com/matheusscarvalho1/app-previsao-do-tempo/assets/73304785/a6cb0e6f-3875-48e0-84f6-2e4148315d39)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<hr>
 
-### `npm run build` fails to minify
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Autor
+
+<b>Matheus de Souza Carvalho</b>
+
+LinkedIn:
+[https://www.linkedin.com/in/matheusscarvalho/](https://www.linkedin.com/in/matheusscarvalho/)
+
+E-mail:
+matheusdocarvalho@gmail.com
