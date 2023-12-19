@@ -6,7 +6,7 @@
 
 
 </div>
-Projeto criado para servir de portfólio contando um pouco da minha história como desenvolvedor, minhas Hard Skills , minhas Soft Skills como colega de trabalho, minhas experiência  utilizando as tecnologias citadas no projeto e contato caso queira entrar em contato comigo.
+🌦️ Criação de uma aplicação web utilizando React e CSS Modules em que mostra a temperatura da cidade ao decorrer do dia, contemplando também a sensação térmica, a chance de chuva, a velocidade do vento, e o índice UV, além disso mostra as temperaturas máximas e mínimas dos outros dias da semana.
 
 ## Pré requisitos
 
