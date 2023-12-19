@@ -1,0 +1,60 @@
+.WeatherDetailsItem {
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.WeatherDetailsItem > p:first-child {
+  color: #8f8f8f;
+}
+.WeatherDetailsItem > div {
+  display: flex;
+  align-items: center;
+}
+
+.WeatherDetailsItem > div > p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2a394f;
+  margin-left: 5px;
+}
+
+.WeatherDetailsItem > div > span {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.WeatherDetailsItem > div > img {
+  width: 35px;
+  height: 35px;
+}
+
+@media (max-width: 1024px) {
+  /*Serão aplicados tanto para celular quanto para tablets */
+  .WeatherDetailsItem {
+    padding: 25px;
+    min-height: 130px;
+  }
+
+  .WeatherDetailsItem > p:first-child {
+    margin-bottom: 10px;
+  }
+
+  .WeatherDetailsItem > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .WeatherDetailsItem > div > p {
+    font-size: 1.5rem;
+  }
+
+  .WeatherDetailsItem > p {
+    font-size: 0.925;
+  }
+}

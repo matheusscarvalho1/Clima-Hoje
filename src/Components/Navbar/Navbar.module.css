@@ -1,0 +1,38 @@
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbarContainer > img {
+  margin-right: 20px;
+}
+
+.customInput {
+  border: none;
+  border-radius: 15px;
+  background-color: #fdfffe;
+  color: #232323;
+  padding: 16px;
+  width: 100%;
+}
+
+.customInput:focus {
+  outline: 2px solid #3aa2ff;
+}
+
+.customInput::placeholder {
+  color: #b1b8c0;
+}
+
+@media (max-width: 1024px) {
+  /*Serão aplicados tanto para celular quanto para tablets */
+  .navbarContainer {
+    flex-direction: column;
+  }
+
+  .navbarContainer > img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

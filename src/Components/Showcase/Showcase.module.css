@@ -1,0 +1,56 @@
+.showcaseContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 60px;
+}
+
+.showcaseContainer .showcaseText > h2:first-child {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #2a394f;
+}
+
+.showcaseContainer .showcaseText > h2:last-child {
+  font-size: 5.125rem;
+  font-weight: 700;
+  color: #2a394f;
+}
+
+.showcaseContainer .showcaseText > p {
+  color: #9aa0a8;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  /*Serão aplicados tanto para celular quanto para tablets */
+  .showcaseContainer {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .showcaseContainer .showcaseText > h2:first-child {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2a394f;
+  }
+
+  .showcaseContainer .showcaseText > h2:last-child {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #2a394f;
+  }
+
+  .showcaseContainer .showcaseText > p {
+    margin-bottom: 10px;
+    font-size: 0.825rem;
+  }
+
+  .showcaseContainer img {
+    width: 180px;
+  }
+}

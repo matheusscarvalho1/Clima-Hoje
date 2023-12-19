@@ -1,0 +1,16 @@
+.appContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px;
+  grid-column-gap: 40px;
+}
+
+@media (max-width: 1024px) {
+  /*Serão aplicados tanto para celular quanto para tablets */
+  .appContainer {
+    grid-template-columns: 100%;
+    padding: 20px;
+    grid-column-gap: 0;
+    grid-row-gap: 40px;
+  }
+}

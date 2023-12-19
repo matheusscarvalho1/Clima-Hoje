@@ -1,0 +1,49 @@
+.hourlyForecastItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.hourlyForecastItem > img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.hourlyForecastItem > p:first-child {
+  color: #fff;
+  opacity: 75%;
+  font-weight: 500;
+}
+
+.hourlyForecastItem > p:last-child {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+  /*Serão aplicados tanto para celular quanto para tablets */
+  .hourlyForecastItem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hourlyForecastItem > img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+
+  .hourlyForecastItem > p:first-child {
+    font-size: 0.825rem;
+    text-align: center;
+  }
+
+  .hourlyForecastItem > p:last-child {
+    font-size: 1.5rem;
+  }
+}

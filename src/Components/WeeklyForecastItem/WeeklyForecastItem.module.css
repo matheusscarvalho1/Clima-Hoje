@@ -1,0 +1,54 @@
+.DayWeatherItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DayWeatherItem > p,
+.DayWeatherItem > img,
+.DayWeatherItem > div {
+  flex: 1;
+}
+
+.DayWeatherItem > p {
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
+.DayWeatherItem > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.DayWeatherItem > div > p:first-child {
+  font-weight: 500;
+  color: #2a394f;
+  margin-right: 8px;
+}
+
+.DayWeatherItem > div > p:last-child {
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.DayWeatherItem > img {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 1024px) {
+  /*Serão aplicados tanto para celular quanto para tablets */
+  .DayWeatherItem > p {
+    font-weight: 500;
+    color: #8f8f8f;
+  }
+
+  .DayWeatherItem > div > p:first-child {
+    font-size: 0.825rem;
+  }
+
+  .DayWeatherItem > div > p:last-child {
+    font-size: 0.825rem;
+  }
+}
