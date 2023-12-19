@@ -28,10 +28,10 @@ Para instalar as bibliotecas e dependências:
 npm i
 ```
 
-Após instalar, basta utilizar o comando para abrir o ambiente de desenvolvimento do nodemon:
+Após instalar, basta utilizar o comando:
 
 ```bash
-npm run dev
+npm start
 ```
 
 ![image](https://github.com/matheusscarvalho1/portfolio/assets/73304785/eee57160-c377-46c1-91b5-ac6f4fdc10b7)
