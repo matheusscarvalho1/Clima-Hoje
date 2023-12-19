@@ -16,7 +16,7 @@ Também é necessário uma IDE, recomendo o [VSCode](https://code.visualstudio.c
 ## Tecnologias utilizadas no projeto
 
 - [ReactJs na versão 18.2.0](https://pt-br.legacy.reactjs.org)
-- [CSS Modules na versão 6.1.1](https://github.com/css-modules/css-modules)
+- [CSS Modules](https://github.com/css-modules/css-modules)
 
 
 
