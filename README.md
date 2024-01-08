@@ -65,6 +65,8 @@ Depois, é só abrir [http://localhost:3000](http://localhost:3000) no seu naveg
 
 </div>
 
+# Próximos passos
+Implementar uma API para mostrar os dados da cidade que for colocada na busca (input) baseado no layout criado, tornando a aplicação funcional.
 
 # Autor
 
