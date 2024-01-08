@@ -66,7 +66,7 @@ Depois, é só abrir [http://localhost:3000](http://localhost:3000) no seu naveg
 </div>
 
 # Próximos passos
-Implementar uma API para mostrar os dados da cidade que for colocada na busca (input) baseado no layout criado, tornando a aplicação funcional.
+Implementar uma API para mostrar os dados da cidade que for colocada na busca (input) informando a temperatura média do dia, a temperatura ao decorrer do dia, as temperaturas máximas e minimas de cada dia da semana, a sensação térmica, a chance de chuva, a velocidade do vento, o Índice UV, tornando a aplicação funcional.
 
 # Autor
 
